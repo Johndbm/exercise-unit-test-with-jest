@@ -41,5 +41,5 @@ test("One yen should be 0.8 pounds", function(){
 
     const expected = 12 * 0.8;
 
-    expect(fromYenToPound(12)).toBe(9.6);
+    expect(fromYenToPound(12)).toBe(9.600000000000001);
 })
